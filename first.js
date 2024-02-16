@@ -1,6 +1,4 @@
-// console.log ("Apna College");
-// console.log ("Hafsa Fatima");
-// console.log ("I Love JavaScript");
+
 
 fullName = "Tasha sethi";
 age= 24;
