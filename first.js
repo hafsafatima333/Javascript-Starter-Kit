@@ -523,11 +523,84 @@
 
 
 // BY USING FOR LOOP:
-for (num = 0; num <= 100; num++) {
-    if (num % 2 !== 0) {
-        console.log("num=", num);
-    }
-}
+// for (num = 0; num <= 100; num++) {
+//     if (num % 2 !== 0) {
+//         console.log("num=", num);
+//     }
+// }
 // -------------------------------------------------------------
-// PRACTICE SET QUESTION #2 :
 
+
+// PRACTICE SET QUESTION #2 :
+// [GAME]================================================!!!!!!!!
+
+// let gameNum = 23;
+// let userNum = prompt("Guess the game number :");
+
+// while (userNum != gameNum) {
+//     userNum = prompt("You entered the wrong number. Guess again : ");
+// }
+// console.log("Congratulations ,you enetered the right number");
+
+
+// let str = "hafsa fatima khan";
+
+// [TEMPLATE LITERALS]-:::::!!!!!
+// let obj = {
+//     item: "pen",
+//     price: 10,
+// };
+
+// let output = ` The cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+
+// //Template Literals
+// let specialString = ` This is a template literal`;
+// console.log(typeof specialString);
+
+// --------------------------------------------------------------------------------
+
+//[ESCAPE CHARACTERS];
+//console.log("Apna\tCollege");
+//output:
+//Apna   College
+
+
+// let str = "Hafsa\nFatimakhan";
+// console.log(str.length);
+// //output
+// //16
+
+// -------------------------------------------------------------------------------
+//toUpperCase:
+// let str = "ApnaCollege";
+// str = str.toUpperCase();
+// console.log(str);
+
+
+// ----------------------------------------------------------------------
+//toLowerCase:
+// let str = "ApnaCollege";
+// str = str.toLowerCase();
+// console.log(str);
+
+// -------------------------------------------------------------------
+//trim():
+// let str = "        Apna     College     JS        ";
+// console.log(str.trim());
+
+
+// ---------------------------------------------------------------------
+//str.slice method:
+// let str = "Hello world";
+// console.log(str.slice(0, 10));
+
+// --------------------------------------------------------------------
+
+// str concat method:
+let str1 = "BAMM PECHS ";
+let str2 = "college for women";
+
+let res = str1.concat(str2);
+console.log(res);
